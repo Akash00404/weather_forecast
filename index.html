@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>WeatherWise</h1>
+    <button id="logout">Logout</button>
+  </header>
+
+  <main>
+    <h2>Weather Forecast</h2>
+    <form id="locationForm">
+      <input type="text" id="locationInput" placeholder="Enter city or zip code" required />
+      <button type="submit">Get Weather</button>
+      <button type="reset">Clear</button>
+    </form>
+
+    <div id="spinner"></div>
+    <div id="mainMessage" class="message" style="display:none;"></div>
+    <div id="weatherResult"></div>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="auth.js"></script>
+</body>
+</html>
