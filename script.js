@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const mainMessage = document.getElementById('mainMessage');
 
 
-  const openWeatherApiKey = '21f9e07d5603f2234347ea19b2b6ba8c';
+  const openWeatherApiKey = 'Api_key';
 
   function showMessage(elementId, message, type = "error") {
     const messageElement = document.getElementById(elementId);
