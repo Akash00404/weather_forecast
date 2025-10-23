@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-box">
+    <img src="weather.jpg" alt="Weather" class="bg-frame"/>
+    <form id="loginForm" class="form">
+      <h2>Welcome Back!</h2>
+      <input type="text" id="loginUsername" placeholder="Username" required />
+      <input type="password" id="loginPassword" placeholder="Password" required />
+      <div id="loginMessage" class="message" style="display:none;"></div>
+      <button type="submit">Login</button>
+      <p>Don't have an account? <a href="signup.html">Sign up now</a></p>
+    </form>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+</html>
